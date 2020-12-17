@@ -1,0 +1,7 @@
+Spring Mybatis 오류 
+1) java.lang.NoSuchMethodException: com.javalecture.practice.BDto.BDto.<init>()
+==> default 생성자가 없는경우
+
+2)org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Mapper method 'com.javalecture.practice.BDao.IDao.write' has an unsupported return type: class java.lang.String
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:894)
+==> Dao interface 에서 띄어쓰기 , 혹은 return 값이 지원하지않는 값을 리턴했을때 일어나는 오류이다.
