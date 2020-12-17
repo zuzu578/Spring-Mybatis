@@ -1,7 +1,9 @@
-Spring Mybatis ¿À·ù 
+Spring Mybatis ì˜¤ë¥˜ 
 1) java.lang.NoSuchMethodException: com.javalecture.practice.BDto.BDto.<init>()
-==> default »ı¼ºÀÚ°¡ ¾ø´Â°æ¿ì
+==> default ìƒì„±ìê°€ ì—†ëŠ”ê²½ìš°
 
 2)org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Mapper method 'com.javalecture.practice.BDao.IDao.write' has an unsupported return type: class java.lang.String
 	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:894)
-==> Dao interface ¿¡¼­ ¶ç¾î¾²±â , È¤Àº return °ªÀÌ Áö¿øÇÏÁö¾Ê´Â °ªÀ» ¸®ÅÏÇßÀ»¶§ ÀÏ¾î³ª´Â ¿À·ùÀÌ´Ù.
+==> Dao interface ì—ì„œ ë„ì–´ì“°ê¸° , í˜¹ì€ return ê°’ì´ ì§€ì›í•˜ì§€ì•ŠëŠ” ê°’ì„ ë¦¬í„´í–ˆì„ë•Œ ì¼ì–´ë‚˜ëŠ” ì˜¤ë¥˜ì´ë‹¤.
+3)is not known to the MapperRegistry.
+==> xml ì—ì„œ mapping <mapper namespace=> ë¶€ë¶„ì— ì˜¤íƒ€ê°€ ìˆì„ë•Œ ë‚˜ëŠ” ì—ëŸ¬ 
