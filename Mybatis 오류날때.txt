@@ -7,3 +7,5 @@ Spring Mybatis 오류
 ==> Dao interface 에서 띄어쓰기 , 혹은 return 값이 지원하지않는 값을 리턴했을때 일어나는 오류이다.
 3)is not known to the MapperRegistry.
 ==> xml 에서 mapping <mapper namespace=> 부분에 오타가 있을때 나는 에러 
+[Error] Cause: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 예기치 않은 파일의 끝입니다
+==> 비어있는 (공백) xml 이 있을 경우 나는 오류
